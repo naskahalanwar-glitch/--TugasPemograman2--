@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noval</title>
 </head>
 <body>
-    <h1>heloo</h1>
+    <h2>Formulir Pendaftaran</h2>
+    <form action="form.html" method="get">
+        Nama: <br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+        <br>
+        password: <br>
+        <input type="password" name="pw" placeholder="masukkan pw"required>
+        <br>
+        Jenis Kelamin : <br>
+        <input type="radio" name ="gender" value="lanang" required>lanang
+        <input type="radio" name ="gender" value="wadon" required>wadon
+         <input type="radio" name ="gender" value="wandu" required>wandu
+        <br>
+        
+    </form><br>
+        hobi Siswa
+        <select name="hobi" id="hobi">
+            <option value="menulis">menulis</option>
+            <option value="membaca">membaca</option>
+            <option value="memasak">memasak</option>
+            <option value="mancing">mancing</option>
+        </select>
+        <br>
+    komentar : <br>
+    <textarea name="komentar" cols="30" rows="5" placeholder="masukkan komentar"></textarea>
+    <br>
+    <button type="submit">Kirim</button>
 </body>
 </html>
